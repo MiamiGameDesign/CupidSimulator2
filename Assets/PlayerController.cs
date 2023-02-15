@@ -30,5 +30,8 @@ public class PlayerController : MonoBehaviour
                 moveDirection.y = jumpSpeed;
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
+        if(Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 }
