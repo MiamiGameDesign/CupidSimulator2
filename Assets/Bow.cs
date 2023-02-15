@@ -7,7 +7,10 @@ public class Bow : MonoBehaviour
 {
     public GameObject arrow;
     public float shootForce, upForce, timeBetweenShooting, spread;
-    public bool allowHolding, shooting, readyToShoot;
+    public int magSize, arrowsPerTap;
+    int arrowsLeft, arrowsShot;
+    public float recoilForce;
+    bool allowHolding, shooting, readyToShoot;
     public bool allowInvoke = true;
     public Camera fpsCam;
     public Transform attackPoint;
@@ -17,7 +20,7 @@ public class Bow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if(allowHolding)
             shooting = Input.GetKey(KeyCode.Mouse0);
@@ -51,7 +54,7 @@ public class Bow : MonoBehaviour
         
     }
     private void ResetShot() {
-            readyToShoot = true;
-            allowInvoke = true;
-        }
+        readyToShoot = true;
+        allowInvoke = true;
+    }
 }
