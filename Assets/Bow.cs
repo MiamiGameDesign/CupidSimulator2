@@ -78,4 +78,8 @@ public class Bow : MonoBehaviour
         arrowsLeft = magSize;
         reloading = false;
     }
+    void OnCollisonEnter(Collider other)
+    {
+        Destroy(gameObject);
+    }
 }

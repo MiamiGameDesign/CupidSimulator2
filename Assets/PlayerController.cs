@@ -20,16 +20,21 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         CharacterController controller = GetComponent<CharacterController>();
-        if (controller.isGrounded) {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
-            
-		}
         if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
+        if(Input.GetKey(KeyCode.LeftControl)) {
+            gravity = 200;
+        } else {
+            gravity = 20;
+        }
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
+        if(transform.position.y < 0) {
+            transform.position = new Vector3(0, 12, 0);
+        }
         if(Input.GetKeyDown(KeyCode.Escape)) {
             Application.Quit();
         }
