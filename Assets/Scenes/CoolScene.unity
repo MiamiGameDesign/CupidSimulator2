@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -821,10 +817,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-=======
     serializedVersion: 3
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1e47f97897f08c74081f713979b41596, type: 3}
@@ -888,8 +881,6 @@ PrefabInstance:
       value: CupidCity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
-=======
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1109,7 +1100,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7029948723529949830, guid: 1e47f97897f08c74081f713979b41596, type: 3}
       insertIndex: -1
       addedObject: {fileID: 24200227}
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
   m_SourcePrefab: {fileID: 100100000, guid: 1e47f97897f08c74081f713979b41596, type: 3}
 --- !u!1 &484550037 stripped
 GameObject:
@@ -2247,8 +2237,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6505552537926968463, guid: 1e47f97897f08c74081f713979b41596, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1 &999480368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,7 +2358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
 --- !u!1 &1002881766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2914413575082383075, guid: 1e47f97897f08c74081f713979b41596, type: 3}
@@ -3143,10 +3130,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-=======
     serializedVersion: 3
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
     m_TransformParent: {fileID: 1755173234}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e00f0d8ef88ec4e4e9a512089c8da7ce, type: 3}
@@ -3214,15 +3198,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
-=======
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e00f0d8ef88ec4e4e9a512089c8da7ce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717799965}
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
   m_SourcePrefab: {fileID: 100100000, guid: e00f0d8ef88ec4e4e9a512089c8da7ce, type: 3}
 --- !u!1 &1717799964 stripped
 GameObject:
@@ -3495,10 +3476,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-=======
     serializedVersion: 3
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
     m_TransformParent: {fileID: 963194228}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c00074fb74a2a3042929c4573115e980, type: 3}
@@ -3562,9 +3540,7 @@ PrefabInstance:
       value: bow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-<<<<<<< HEAD
-=======
-    m_RemovedGameObjects: []
+	m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c00074fb74a2a3042929c4573115e980, type: 3}
       insertIndex: -1
@@ -3579,7 +3555,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c00074fb74a2a3042929c4573115e980, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1755173238}
->>>>>>> 82c9893d9bba3fcb87821be7e0b9ed8aec5f3263
   m_SourcePrefab: {fileID: 100100000, guid: c00074fb74a2a3042929c4573115e980, type: 3}
 --- !u!1 &1755173233 stripped
 GameObject:
