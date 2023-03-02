@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         GameObject[] enemytags = GameObject.FindGameObjectsWithTag("cupid_simulator_enemy");
         int count = 0;
