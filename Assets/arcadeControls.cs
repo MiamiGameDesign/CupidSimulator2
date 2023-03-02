@@ -10,7 +10,7 @@ public class arcadeControls : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Escape))
             Application.Quit();
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.P))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
