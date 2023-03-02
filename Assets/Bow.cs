@@ -15,6 +15,7 @@ public class Bow : MonoBehaviour
     public Camera fpsCam;
     public Transform attackPoint;
     public TextMeshProUGUI ammunitionDisplay;
+    public AudioSource deathsound, arrowwoosh;
 
     //bug fixing :D
     public bool allowInvoke = true;
@@ -51,7 +52,7 @@ public class Bow : MonoBehaviour
         {
             //Set bullets shot to 0
             bulletsShot = 0;
-
+            arrowwoosh.Play();
             Shoot();
         }
     }
@@ -69,7 +70,11 @@ public class Bow : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.CompareTag("cupid_simulator_enemy"))
+            {
+                deathsound.Play();
                 Destroy(hit.collider.gameObject);
+            }
+                
             targetPoint = hit.point;
         }
             
